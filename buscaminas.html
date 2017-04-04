@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Buscaminas Clon</title>
+	<link rel="icon" type="image/png" href="face.png">
+	<link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
+</head>
+<body bgcolor="black" align="center">
+<font color="white" face="helvetica">
+<section>
+	<h1>Buscaminas</h1>
+	<table border="1" width="200" height="200" align="center">
+        <tr>
+         <div>
+    		<td id="mina" class="minas"><button class="btn" value="Mostrar mina" onclick="mostrar_mina();"></button></td>
+         	<td id="uno" class="minas"><button class="btn" value="Mostrar uno" onclick="mostrar_numero1();"></button></td>
+         	<td><button class="btn"></button></td>
+         	<td id="celda"><button class="btn" onclick="celdas_vacias();"></button></td>
+         </div>
+        </tr>
+        <tr>
+         <div>
+         	<td id="mina" class="minas"><button class="btn"></button></td>
+         	<td id="celda" class="celdas"><button class="btn"></button></td>
+         	<td><button class="btn"></button></td>
+         	<td><button class="btn"></button></td>
+         </div>
+        </tr>
+        <tr>
+         <div>
+         	<td><button class="btn"></button></td>
+         	<td class="minas"><button class="btn"></button></td>
+         	<td id="dos"><button onclick="mostrar_numero2();" class="btn"></button></td>
+         	<td><button class="btn"></button></td>
+         </div>
+        </tr>
+        <tr>
+         <div>
+         	<td><button class="btn"></button></td>
+         	<td><button class="btn"></button></td>
+         	<td class="minas"><button class="btn"></button></td>
+         	<td class="minas"><button class="btn"></button></td>
+         </div>
+        </tr>
+        <input type=image src="face.png" width="30" height="30" onclick="location.reload();">
+       </table> 
+</section>
+<script type="text/javascript" src="assets/js/buscaminas.js"></script>
+</body>
+</html>
